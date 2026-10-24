@@ -2,6 +2,7 @@ import 'dart:io';
 
 // Katalog produk: Map dengan kunci kode produk, nilainya Record
 final katalog = <String, ({String nama, String kategori, int harga})>{
+  // final: katalog diisi sekali dan tidak diganti lagi
   'P01': (nama: 'Kopi Sidikalang 250 g', kategori: 'Minuman', harga: 45000),
   'P02': (nama: 'Teh Sidamanik 100 g', kategori: 'Minuman', harga: 25000),
   'P03': (nama: 'Sirup Markisa', kategori: 'Minuman', harga: 35000),
